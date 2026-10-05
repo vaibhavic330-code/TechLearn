@@ -1,16 +1,80 @@
-# React + Vite
+# 🎓 TechLearn
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> **An interactive online learning platform for students to learn, practice, and track their progress.**
 
-Currently, two official plugins are available:
+TechLearn is a React + Vite based learning platform designed to provide students with structured courses, study materials, lectures, progress tracking, and course completion certificates.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The platform also includes an **Admin Dashboard** for managing courses, modules, and lectures.
 
-## React Compiler
+## 🌐 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🚀 **Website:** https://tech-learn-steel.vercel.app/
 
-## Expanding the Oxlint configuration
+💻 **GitHub:** https://github.com/vaibhavic330-code/TechLearn
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## ✨ Features
+
+### 👨‍🎓 Student Features
+
+- 🔐 Student registration and login
+- 📚 Browse available courses
+- 📖 View course modules and learning content
+- 📊 Track course and module progress
+- 🎥 View scheduled live lectures
+- ▶️ Access recorded lectures when available
+- 📑 Access study materials and previous question papers
+- 🏆 Generate a certificate after completing a course
+- 🖨️ Print the generated certificate
+- 💾 Store progress using browser LocalStorage
+
+### 👨‍💼 Admin Features
+
+- 🔐 Role-based admin authentication
+- 📚 View and manage courses
+- 📦 Manage course modules
+- 🎥 Manage lectures
+- 📅 Schedule lecture date and time
+- 🔗 Add live meeting links
+- ▶️ Add recording links
+- 📈 View course and lecture statistics
+
+### 📚 Learning Resources
+
+TechLearn currently provides resources related to:
+
+- Python
+- Machine Learning
+- DBMS
+- Previous university question papers
+- Important questions
+- Study notes
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- React Router
+- Vite
+
+### Development & Deployment
+
+- Git
+- GitHub
+- Vercel
+- npm
+
+### Browser Storage
+
+- LocalStorage
+
+---
+
+
