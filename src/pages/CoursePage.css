@@ -1,0 +1,152 @@
+/* =========================================
+   TECHLEARN LECTURE SYSTEM
+========================================= */
+
+.lecture-box {
+  margin-top: 18px;
+  padding: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  background: #f8fafc;
+}
+
+.lecture-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.lecture-icon {
+  font-size: 26px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.lecture-header strong {
+  display: block;
+  color: #111827;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.lecture-header small {
+  display: block;
+  margin-top: 6px;
+  color: #6b7280;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.lecture-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.live-btn,
+.recording-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  border-radius: 8px;
+
+  padding: 9px 14px;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  text-decoration: none;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.live-btn {
+  background: #dc2626;
+  color: #ffffff;
+}
+
+.recording-btn {
+  background: #111827;
+  color: #ffffff;
+}
+
+.live-btn:hover,
+.recording-btn:hover {
+  transform: translateY(-1px);
+  opacity: 0.92;
+}
+
+.live-btn.disabled,
+.recording-btn.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.lecture-coming-soon {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.lecture-coming-soon strong {
+  display: block;
+  color: #374151;
+  font-size: 14px;
+}
+
+.lecture-coming-soon small {
+  display: block;
+  margin-top: 5px;
+  color: #6b7280;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* =========================================
+   MODULE NUMBER
+========================================= */
+
+.module-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+  .lecture-actions {
+    flex-direction: column;
+  }
+
+  .live-btn,
+  .recording-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .lecture-box {
+    padding: 14px;
+  }
+
+  .lecture-header {
+    gap: 10px;
+  }
+}
+/* =========================================
+   FIX COURSE PAGE NAVBAR OVERLAP
+========================================= */
+
+.page-container {
+  padding-top: 100px;
+}
